@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Palabras</title>
+    <link rel="stylesheet" href="stylesdic.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Buscador de Palabras y Definiciones</h1>
+        <form id="searchForm">
+            <input type="text" id="searchInput" class="form-control" placeholder="Buscar una palabra...">
+            <select id="wordList" size="15" class="form-control"></select>
+            <button type="button" id="showDefinitionButton" class="btn btn-primary">Mostrar Definición</button>
+        </form>
+        <div class="mt-3">
+            <h3>Definición:</h3>
+            <p id="definition" class="definition-text"></p>
+        </div>
+    </div>
+    <script src="diccioanrio.js"></script>
+</body>
+</html>

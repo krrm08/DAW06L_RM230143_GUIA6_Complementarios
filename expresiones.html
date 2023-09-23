@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Expresiones Regulares</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <form name="frmdatos" class="form">
+            <div class="form-group">
+                <label for="seltipo">Seleccione el tipo de validación:</label>
+                <select id="seltipo" name="seltipo" class="form-control">
+                    <option value="ipv4">Dirección IPv4</option>
+                    <option value="url">URL</option>
+                    <option value="email">Dirección de Correo Electrónico</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="text" id="txtdato" name="txtdato" class="form-control" placeholder="Ingrese la dirección">
+            </div>
+            <button id="validar" type="button" class="btn btn-primary">Validar</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

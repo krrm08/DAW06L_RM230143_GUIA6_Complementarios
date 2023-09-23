@@ -1,0 +1,24 @@
+.container {
+    text-align: center;
+}
+
+.form-control {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.definition-text {
+    font-size: 16px;
+    font-weight: bold;
+}
